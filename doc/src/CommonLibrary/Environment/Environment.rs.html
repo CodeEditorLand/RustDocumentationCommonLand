@@ -3,7 +3,7 @@
 <a href=#3 id=3 data-nosnippet>3</a>//! Defines the core `Environment` marker trait, which serves as the foundation
 <a href=#4 id=4 data-nosnippet>4</a>//! of the application's dependency injection and capability system.
 <a href=#5 id=5 data-nosnippet>5</a>
-<a href=#6 id=6 data-nosnippet>6</a></span><span class="kw">use </span>std::sync::Arc;
+<a href=#6 id=6 data-nosnippet>6</a></span><span class="kw">use </span><a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">std::sync::Arc</a>;
 <a href=#7 id=7 data-nosnippet>7</a>
 <a href=#8 id=8 data-nosnippet>8</a><span class="doccomment">/// A marker trait for any struct that represents an application's environment.
 <a href=#9 id=9 data-nosnippet>9</a>///
@@ -17,7 +17,7 @@
 <a href=#17 id=17 data-nosnippet>17</a>/// environment can be safely shared across asynchronous tasks and threads,
 <a href=#18 id=18 data-nosnippet>18</a>
 <a href=#19 id=19 data-nosnippet>19</a>/// which is essential for a concurrent application.
-<a href=#20 id=20 data-nosnippet>20</a></span><span class="kw">pub trait </span>Environment: Send + Sync + <span class="lifetime">'static </span>{}
+<a href=#20 id=20 data-nosnippet>20</a></span><span class="kw">pub trait </span><a href="../../../CommonLibrary/Environment/Environment/trait.Environment.html">Environment</a>: <a href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html">Send</a> + <a href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html">Sync</a> + <span class="lifetime">'static </span>{}
 <a href=#21 id=21 data-nosnippet>21</a>
 <a href=#22 id=22 data-nosnippet>22</a><span class="doccomment">/// A blanket implementation that allows a shared, reference-counted pointer to
 <a href=#23 id=23 data-nosnippet>23</a>/// an `Environment` (`Arc&lt;TEnvironment&gt;`) to also be treated as an
@@ -26,5 +26,5 @@
 <a href=#26 id=26 data-nosnippet>26</a>/// This is a key ergonomic feature of the dependency injection system, enabling
 <a href=#27 id=27 data-nosnippet>27</a>/// shared state to be passed around and used seamlessly without needing to
 <a href=#28 id=28 data-nosnippet>28</a>/// constantly dereference `Arc` pointers.
-<a href=#29 id=29 data-nosnippet>29</a></span><span class="kw">impl</span>&lt;TEnvironment:Environment + <span class="question-mark">?</span>Sized&gt; Environment <span class="kw">for </span>Arc&lt;TEnvironment&gt; {}
+<a href=#29 id=29 data-nosnippet>29</a></span><span class="kw">impl</span>&lt;TEnvironment:<a href="#20">Environment</a> + <span class="question-mark">?</span><a href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html">Sized</a>&gt; <a href="#20">Environment</a> <span class="kw">for </span><a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">Arc</a>&lt;TEnvironment&gt; {}
 </code></pre></div></section></main></body></html>

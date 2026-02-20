@@ -3,7 +3,7 @@
 <a href=#3 id=3 data-nosnippet>3</a>//! Defines the Data Transfer Object enum for specifying the target scope of a
 <a href=#4 id=4 data-nosnippet>4</a>//! configuration update.
 <a href=#5 id=5 data-nosnippet>5</a>
-<a href=#6 id=6 data-nosnippet>6</a></span><span class="kw">use </span>serde::{Deserialize, Serialize};
+<a href=#6 id=6 data-nosnippet>6</a></span><span class="kw">use </span>serde::{<a href="https://docs.rs/serde_derive/1.0.228/serde_derive/derive.Deserialize.html">Deserialize</a>, <a href="https://docs.rs/serde_derive/1.0.228/serde_derive/derive.Serialize.html">Serialize</a>};
 <a href=#7 id=7 data-nosnippet>7</a>
 <a href=#8 id=8 data-nosnippet>8</a><span class="doccomment">/// An enum that defines the target level for a configuration update. This tells
 <a href=#9 id=9 data-nosnippet>9</a>/// the `ConfigurationProvider` which `settings.json` file or memory layer to
@@ -11,8 +11,8 @@
 <a href=#11 id=11 data-nosnippet>11</a>///
 <a href=#12 id=12 data-nosnippet>12</a>/// The integer values are chosen for direct compatibility with VS Code's
 <a href=#13 id=13 data-nosnippet>13</a>/// internal API, ensuring seamless interoperability across IPC boundaries.
-<a href=#14 id=14 data-nosnippet>14</a></span><span class="attr">#[derive(Serialize, Deserialize, Debug, Clone, Copy, PartialEq, Eq, Hash)]
-<a href=#15 id=15 data-nosnippet>15</a></span><span class="kw">pub enum </span>ConfigurationTarget {
+<a href=#14 id=14 data-nosnippet>14</a></span><span class="attr">#[derive(<a href="https://docs.rs/serde_derive/1.0.228/serde_derive/derive.Serialize.html">Serialize</a>, <a href="https://docs.rs/serde_derive/1.0.228/serde_derive/derive.Deserialize.html">Deserialize</a>, <a href="https://doc.rust-lang.org/nightly/core/fmt/macros/derive.Debug.html">Debug</a>, <a href="https://doc.rust-lang.org/nightly/core/clone/derive.Clone.html">Clone</a>, <a href="https://doc.rust-lang.org/nightly/core/marker/derive.Copy.html">Copy</a>, <a href="https://doc.rust-lang.org/nightly/core/cmp/derive.PartialEq.html">PartialEq</a>, <a href="https://doc.rust-lang.org/nightly/core/cmp/derive.Eq.html">Eq</a>, <a href="https://doc.rust-lang.org/nightly/core/hash/macros/derive.Hash.html">Hash</a>)]
+<a href=#15 id=15 data-nosnippet>15</a></span><span class="kw">pub enum </span><a href="../../../../CommonLibrary/Configuration/DTO/ConfigurationTarget/enum.ConfigurationTarget.html">ConfigurationTarget</a> {
 <a href=#16 id=16 data-nosnippet>16</a>	<span class="doccomment">/// Target the user settings file for the local machine.
 <a href=#17 id=17 data-nosnippet>17</a>	</span>UserLocal = <span class="number">1</span>,
 <a href=#18 id=18 data-nosnippet>18</a>

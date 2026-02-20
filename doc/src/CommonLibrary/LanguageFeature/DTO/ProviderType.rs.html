@@ -2,15 +2,15 @@
 <a href=#2 id=2 data-nosnippet>2</a>//!
 <a href=#3 id=3 data-nosnippet>3</a>//! Defines the enum that identifies each type of language feature provider.
 <a href=#4 id=4 data-nosnippet>4</a>
-<a href=#5 id=5 data-nosnippet>5</a></span><span class="kw">use </span>std::fmt;
+<a href=#5 id=5 data-nosnippet>5</a></span><span class="kw">use </span><a href="https://doc.rust-lang.org/nightly/alloc/fmt/index.html">std::fmt</a>;
 <a href=#6 id=6 data-nosnippet>6</a>
-<a href=#7 id=7 data-nosnippet>7</a><span class="kw">use </span>serde::{Deserialize, Serialize};
+<a href=#7 id=7 data-nosnippet>7</a><span class="kw">use </span>serde::{<a href="https://docs.rs/serde_derive/1.0.228/serde_derive/derive.Deserialize.html">Deserialize</a>, <a href="https://docs.rs/serde_derive/1.0.228/serde_derive/derive.Serialize.html">Serialize</a>};
 <a href=#8 id=8 data-nosnippet>8</a>
 <a href=#9 id=9 data-nosnippet>9</a><span class="doccomment">/// An enum that provides a unique identifier for each type of language feature.
 <a href=#10 id=10 data-nosnippet>10</a>/// This is used to register and query for specific provider implementations.
-<a href=#11 id=11 data-nosnippet>11</a></span><span class="attr">#[derive(Serialize, Deserialize, Debug, Clone, Copy, PartialEq, Eq, Hash)]
+<a href=#11 id=11 data-nosnippet>11</a></span><span class="attr">#[derive(<a href="https://docs.rs/serde_derive/1.0.228/serde_derive/derive.Serialize.html">Serialize</a>, <a href="https://docs.rs/serde_derive/1.0.228/serde_derive/derive.Deserialize.html">Deserialize</a>, <a href="https://doc.rust-lang.org/nightly/core/fmt/macros/derive.Debug.html">Debug</a>, <a href="https://doc.rust-lang.org/nightly/core/clone/derive.Clone.html">Clone</a>, <a href="https://doc.rust-lang.org/nightly/core/marker/derive.Copy.html">Copy</a>, <a href="https://doc.rust-lang.org/nightly/core/cmp/derive.PartialEq.html">PartialEq</a>, <a href="https://doc.rust-lang.org/nightly/core/cmp/derive.Eq.html">Eq</a>, <a href="https://doc.rust-lang.org/nightly/core/hash/macros/derive.Hash.html">Hash</a>)]
 <a href=#12 id=12 data-nosnippet>12</a>#[repr(u8)]
-<a href=#13 id=13 data-nosnippet>13</a></span><span class="kw">pub enum </span>ProviderType {
+<a href=#13 id=13 data-nosnippet>13</a></span><span class="kw">pub enum </span><a href="../../../../CommonLibrary/LanguageFeature/DTO/ProviderType/enum.ProviderType.html">ProviderType</a> {
 <a href=#14 id=14 data-nosnippet>14</a>	Completion = <span class="number">0</span>,
 <a href=#15 id=15 data-nosnippet>15</a>
 <a href=#16 id=16 data-nosnippet>16</a>	Hover = <span class="number">1</span>,
@@ -64,7 +64,7 @@
 <a href=#64 id=64 data-nosnippet>64</a>	TypeHierarchy = <span class="number">25</span>,
 <a href=#65 id=65 data-nosnippet>65</a>}
 <a href=#66 id=66 data-nosnippet>66</a>
-<a href=#67 id=67 data-nosnippet>67</a><span class="kw">impl </span>fmt::Display <span class="kw">for </span>ProviderType {
-<a href=#68 id=68 data-nosnippet>68</a>	<span class="kw">fn </span>fmt(<span class="kw-2">&amp;</span><span class="self">self</span>, f:<span class="kw-2">&amp;mut </span>fmt::Formatter) -&gt; fmt::Result { <span class="macro">write!</span>(f, <span class="string">"{:?}"</span>, <span class="self">self</span>) }
+<a href=#67 id=67 data-nosnippet>67</a><span class="kw">impl </span><a href="https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html">fmt::Display</a> <span class="kw">for </span><a href="#13-65">ProviderType</a> {
+<a href=#68 id=68 data-nosnippet>68</a>	<span class="kw">fn </span>fmt(<span class="kw-2">&amp;</span><span class="self">self</span>, f:<span class="kw-2">&amp;mut </span>fmt::<a href="https://doc.rust-lang.org/nightly/core/fmt/struct.Formatter.html">Formatter</a>) -&gt; fmt::<a href="https://doc.rust-lang.org/nightly/core/fmt/type.Result.html">Result</a> { <a href="https://doc.rust-lang.org/nightly/core/macro.write.html">write!</a>(<a href="#68">f</a>, <span class="string">"{:?}"</span>, <span class="self">self</span>) }
 <a href=#69 id=69 data-nosnippet>69</a>}
 </code></pre></div></section></main></body></html>

@@ -2,10 +2,10 @@
 <a href=#2 id=2 data-nosnippet>2</a>//!
 <a href=#3 id=3 data-nosnippet>3</a>//! Defines the `ActionEffect` for registering a new output channel.
 <a href=#4 id=4 data-nosnippet>4</a>
-<a href=#5 id=5 data-nosnippet>5</a></span><span class="kw">use </span>std::sync::Arc;
+<a href=#5 id=5 data-nosnippet>5</a></span><span class="kw">use </span><a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">std::sync::Arc</a>;
 <a href=#6 id=6 data-nosnippet>6</a>
-<a href=#7 id=7 data-nosnippet>7</a><span class="kw">use </span><span class="kw">super</span>::OutputChannelManager::OutputChannelManager;
-<a href=#8 id=8 data-nosnippet>8</a><span class="kw">use </span>crate::{Effect::ActionEffect::ActionEffect, Error::CommonError::CommonError};
+<a href=#7 id=7 data-nosnippet>7</a><span class="kw">use </span><a href="OutputChannelManager.rs.html#17-63"><span class="kw">super</span>::OutputChannelManager::OutputChannelManager</a>;
+<a href=#8 id=8 data-nosnippet>8</a><span class="kw">use </span>crate::{<a href="../Effect/ActionEffect.rs.html#22-27">Effect::ActionEffect::ActionEffect</a>, <a href="../Error/CommonError.rs.html#15-105">Error::CommonError::CommonError</a>};
 <a href=#9 id=9 data-nosnippet>9</a>
 <a href=#10 id=10 data-nosnippet>10</a><span class="doccomment">/// Creates an effect that, when executed, will register a new output channel
 <a href=#11 id=11 data-nosnippet>11</a>/// with the host application.
@@ -19,17 +19,17 @@
 <a href=#19 id=19 data-nosnippet>19</a>/// # Returns
 <a href=#20 id=20 data-nosnippet>20</a>/// An `ActionEffect` that resolves with a unique `String` identifier for the
 <a href=#21 id=21 data-nosnippet>21</a>/// newly created channel.
-<a href=#22 id=22 data-nosnippet>22</a></span><span class="kw">pub fn </span>RegisterOutputChannel(
-<a href=#23 id=23 data-nosnippet>23</a>	Name:String,
+<a href=#22 id=22 data-nosnippet>22</a></span><span class="kw">pub fn </span><a href="../../../CommonLibrary/Output/RegisterOutputChannel/fn.RegisterOutputChannel.html">RegisterOutputChannel</a>(
+<a href=#23 id=23 data-nosnippet>23</a>	Name:<a href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html">String</a>,
 <a href=#24 id=24 data-nosnippet>24</a>
-<a href=#25 id=25 data-nosnippet>25</a>	LanguageIdentifier:<span class="prelude-ty">Option</span>&lt;String&gt;,
-<a href=#26 id=26 data-nosnippet>26</a>) -&gt; ActionEffect&lt;Arc&lt;<span class="kw">dyn </span>OutputChannelManager&gt;, CommonError, String&gt; {
-<a href=#27 id=27 data-nosnippet>27</a>	ActionEffect::New(Arc::new(<span class="kw">move </span>|Manager:Arc&lt;<span class="kw">dyn </span>OutputChannelManager&gt;| {
-<a href=#28 id=28 data-nosnippet>28</a>		<span class="kw">let </span>NameClone = Name.clone();
+<a href=#25 id=25 data-nosnippet>25</a>	LanguageIdentifier:<a class="prelude-ty" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html">Option</a>&lt;<a href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html">String</a>&gt;,
+<a href=#26 id=26 data-nosnippet>26</a>) -&gt; <a href="../Effect/ActionEffect.rs.html#22-27">ActionEffect</a>&lt;<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">Arc</a>&lt;<span class="kw">dyn </span><a href="OutputChannelManager.rs.html#17-63">OutputChannelManager</a>&gt;, <a href="../Error/CommonError.rs.html#15-105">CommonError</a>, <a href="https://doc.rust-lang.org/nightly/alloc/string/struct.String.html">String</a>&gt; {
+<a href=#27 id=27 data-nosnippet>27</a>	<a href="../Effect/ActionEffect.rs.html#22-27">ActionEffect</a>::<a href="../Effect/ActionEffect.rs.html#31-37">New</a>(<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">Arc</a>::<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html#method.new">new</a>(<span class="kw">move </span>|Manager:<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">Arc</a>&lt;<span class="kw">dyn </span><a href="OutputChannelManager.rs.html#17-63">OutputChannelManager</a>&gt;| {
+<a href=#28 id=28 data-nosnippet>28</a>		<span class="kw">let </span>NameClone = <a href="#23">Name</a>.<a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone">clone</a>();
 <a href=#29 id=29 data-nosnippet>29</a>
-<a href=#30 id=30 data-nosnippet>30</a>		<span class="kw">let </span>LanguageIdentifierClone = LanguageIdentifier.clone();
+<a href=#30 id=30 data-nosnippet>30</a>		<span class="kw">let </span>LanguageIdentifierClone = <a href="#25">LanguageIdentifier</a>.<a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone">clone</a>();
 <a href=#31 id=31 data-nosnippet>31</a>
-<a href=#32 id=32 data-nosnippet>32</a>		Box::pin(<span class="kw">async move </span>{ Manager.RegisterChannel(NameClone, LanguageIdentifierClone).<span class="kw">await </span>})
+<a href=#32 id=32 data-nosnippet>32</a>		<a href="https://doc.rust-lang.org/nightly/alloc/boxed/struct.Box.html">Box</a>::<a href="https://doc.rust-lang.org/nightly/alloc/boxed/struct.Box.html#method.pin">pin</a>(<span class="kw">async move </span>{ <a href="#27">Manager</a>.<a href="OutputChannelManager.rs.html#28">RegisterChannel</a>(<a href="#28">NameClone</a>, <a href="#30">LanguageIdentifierClone</a>).<span class="kw">await </span>})
 <a href=#33 id=33 data-nosnippet>33</a>	}))
 <a href=#34 id=34 data-nosnippet>34</a>}
 </code></pre></div></section></main></body></html>

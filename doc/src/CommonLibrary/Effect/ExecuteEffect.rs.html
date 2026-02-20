@@ -3,10 +3,10 @@
 <a href=#3 id=3 data-nosnippet>3</a>//! Defines the generic `ExecuteEffect` helper function, which provides a more
 <a href=#4 id=4 data-nosnippet>4</a>//! ergonomic and readable way to run `ActionEffect`s within application logic.
 <a href=#5 id=5 data-nosnippet>5</a>
-<a href=#6 id=6 data-nosnippet>6</a></span><span class="kw">use </span>std::sync::Arc;
+<a href=#6 id=6 data-nosnippet>6</a></span><span class="kw">use </span><a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">std::sync::Arc</a>;
 <a href=#7 id=7 data-nosnippet>7</a>
-<a href=#8 id=8 data-nosnippet>8</a><span class="kw">use </span>super::{ActionEffect::ActionEffect, ApplicationRunTime::ApplicationRunTime};
-<a href=#9 id=9 data-nosnippet>9</a><span class="kw">use </span>crate::{Environment::Requires::Requires, Error::CommonError::CommonError};
+<a href=#8 id=8 data-nosnippet>8</a><span class="kw">use </span>super::{<a href="ActionEffect.rs.html#22-27">ActionEffect::ActionEffect</a>, <a href="ApplicationRunTime.rs.html#18-33">ApplicationRunTime::ApplicationRunTime</a>};
+<a href=#9 id=9 data-nosnippet>9</a><span class="kw">use </span>crate::{<a href="../Environment/Requires.rs.html#21-25">Environment::Requires::Requires</a>, <a href="../Error/CommonError.rs.html#15-105">Error::CommonError::CommonError</a>};
 <a href=#10 id=10 data-nosnippet>10</a>
 <a href=#11 id=11 data-nosnippet>11</a><span class="doccomment">/// A generic effect execution helper that takes a runtime and an effect, and
 <a href=#12 id=12 data-nosnippet>12</a>/// executes the effect using that runtime.
@@ -29,17 +29,17 @@
 <a href=#29 id=29 data-nosnippet>29</a>/// }
 <a href=#30 id=30 data-nosnippet>30</a>
 <a href=#31 id=31 data-nosnippet>31</a>/// ```
-<a href=#32 id=32 data-nosnippet>32</a></span><span class="kw">pub async fn </span>ExecuteEffect&lt;TRunTime, TCapabilityProvider, TError, TOutput&gt;(
-<a href=#33 id=33 data-nosnippet>33</a>	RunTime:Arc&lt;TRunTime&gt;,
+<a href=#32 id=32 data-nosnippet>32</a></span><span class="kw">pub async fn </span><a href="../../../CommonLibrary/Effect/ExecuteEffect/fn.ExecuteEffect.html">ExecuteEffect</a>&lt;TRunTime, TCapabilityProvider, TError, TOutput&gt;(
+<a href=#33 id=33 data-nosnippet>33</a>	RunTime:<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">Arc</a>&lt;TRunTime&gt;,
 <a href=#34 id=34 data-nosnippet>34</a>
-<a href=#35 id=35 data-nosnippet>35</a>	Effect:ActionEffect&lt;Arc&lt;TCapabilityProvider&gt;, TError, TOutput&gt;,
+<a href=#35 id=35 data-nosnippet>35</a>	Effect:<a href="ActionEffect.rs.html#22-27">ActionEffect</a>&lt;<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">Arc</a>&lt;TCapabilityProvider&gt;, TError, TOutput&gt;,
 <a href=#36 id=36 data-nosnippet>36</a>) -&gt; <span class="prelude-ty">Result</span>&lt;TOutput, TError&gt;
 <a href=#37 id=37 data-nosnippet>37</a><span class="kw">where
-<a href=#38 id=38 data-nosnippet>38</a>	</span>TRunTime: ApplicationRunTime,
-<a href=#39 id=39 data-nosnippet>39</a>	TCapabilityProvider: <span class="question-mark">?</span>Sized + Send + Sync + <span class="lifetime">'static</span>,
-<a href=#40 id=40 data-nosnippet>40</a>	TRunTime::EnvironmentType: Requires&lt;TCapabilityProvider&gt;,
-<a href=#41 id=41 data-nosnippet>41</a>	TError: From&lt;CommonError&gt; + Send + Sync + <span class="lifetime">'static</span>,
-<a href=#42 id=42 data-nosnippet>42</a>	TOutput: Send + Sync + <span class="lifetime">'static</span>, {
+<a href=#38 id=38 data-nosnippet>38</a>	</span>TRunTime: <a href="ApplicationRunTime.rs.html#18-33">ApplicationRunTime</a>,
+<a href=#39 id=39 data-nosnippet>39</a>	TCapabilityProvider: <span class="question-mark">?</span><a href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html">Sized</a> + <a href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html">Send</a> + <a href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html">Sync</a> + <span class="lifetime">'static</span>,
+<a href=#40 id=40 data-nosnippet>40</a>	TRunTime::EnvironmentType: <a href="../Environment/Requires.rs.html#21-25">Requires</a>&lt;TCapabilityProvider&gt;,
+<a href=#41 id=41 data-nosnippet>41</a>	TError: <a href="https://doc.rust-lang.org/nightly/core/convert/trait.From.html">From</a>&lt;<a href="../Error/CommonError.rs.html#15-105">CommonError</a>&gt; + <a href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html">Send</a> + <a href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html">Sync</a> + <span class="lifetime">'static</span>,
+<a href=#42 id=42 data-nosnippet>42</a>	TOutput: <a href="https://doc.rust-lang.org/nightly/core/marker/trait.Send.html">Send</a> + <a href="https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html">Sync</a> + <span class="lifetime">'static</span>, {
 <a href=#43 id=43 data-nosnippet>43</a>	<span class="comment">// The RunTime::Run method expects an effect whose closure takes the capability.
 <a href=#44 id=44 data-nosnippet>44</a>	// This now matches perfectly.
 <a href=#45 id=45 data-nosnippet>45</a>	</span>RunTime.Run(Effect).<span class="kw">await

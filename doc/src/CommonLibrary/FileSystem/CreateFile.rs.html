@@ -2,10 +2,10 @@
 <a href=#2 id=2 data-nosnippet>2</a>//!
 <a href=#3 id=3 data-nosnippet>3</a>//! Defines the `ActionEffect` for creating a new, empty file.
 <a href=#4 id=4 data-nosnippet>4</a>
-<a href=#5 id=5 data-nosnippet>5</a></span><span class="kw">use </span>std::{path::PathBuf, sync::Arc};
+<a href=#5 id=5 data-nosnippet>5</a></span><span class="kw">use </span>std::{<a href="https://doc.rust-lang.org/nightly/std/path/struct.PathBuf.html">path::PathBuf</a>, <a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">sync::Arc</a>};
 <a href=#6 id=6 data-nosnippet>6</a>
-<a href=#7 id=7 data-nosnippet>7</a><span class="kw">use </span><span class="kw">super</span>::FileSystemWriter::FileSystemWriter;
-<a href=#8 id=8 data-nosnippet>8</a><span class="kw">use </span>crate::{Effect::ActionEffect::ActionEffect, Error::CommonError::CommonError};
+<a href=#7 id=7 data-nosnippet>7</a><span class="kw">use </span><a href="FileSystemWriter.rs.html#20-67"><span class="kw">super</span>::FileSystemWriter::FileSystemWriter</a>;
+<a href=#8 id=8 data-nosnippet>8</a><span class="kw">use </span>crate::{<a href="../Effect/ActionEffect.rs.html#22-27">Effect::ActionEffect::ActionEffect</a>, <a href="../Error/CommonError.rs.html#15-105">Error::CommonError::CommonError</a>};
 <a href=#9 id=9 data-nosnippet>9</a>
 <a href=#10 id=10 data-nosnippet>10</a><span class="doccomment">/// Creates an effect that, when executed, will create a new, empty file at the
 <a href=#11 id=11 data-nosnippet>11</a>/// specified path.
@@ -19,11 +19,11 @@
 <a href=#19 id=19 data-nosnippet>19</a>///
 <a href=#20 id=20 data-nosnippet>20</a>/// # Returns
 <a href=#21 id=21 data-nosnippet>21</a>/// An `ActionEffect` that resolves to `()` on success.
-<a href=#22 id=22 data-nosnippet>22</a></span><span class="kw">pub fn </span>CreateFile(Path:PathBuf) -&gt; ActionEffect&lt;Arc&lt;<span class="kw">dyn </span>FileSystemWriter&gt;, CommonError, ()&gt; {
-<a href=#23 id=23 data-nosnippet>23</a>	ActionEffect::New(Arc::new(<span class="kw">move </span>|Writer:Arc&lt;<span class="kw">dyn </span>FileSystemWriter&gt;| {
-<a href=#24 id=24 data-nosnippet>24</a>		<span class="kw">let </span>PathClone = Path.clone();
+<a href=#22 id=22 data-nosnippet>22</a></span><span class="kw">pub fn </span><a href="../../../CommonLibrary/FileSystem/CreateFile/fn.CreateFile.html">CreateFile</a>(Path:<a href="https://doc.rust-lang.org/nightly/std/path/struct.PathBuf.html">PathBuf</a>) -&gt; <a href="../Effect/ActionEffect.rs.html#22-27">ActionEffect</a>&lt;<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">Arc</a>&lt;<span class="kw">dyn </span><a href="FileSystemWriter.rs.html#20-67">FileSystemWriter</a>&gt;, <a href="../Error/CommonError.rs.html#15-105">CommonError</a>, ()&gt; {
+<a href=#23 id=23 data-nosnippet>23</a>	<a href="../Effect/ActionEffect.rs.html#22-27">ActionEffect</a>::<a href="../Effect/ActionEffect.rs.html#31-37">New</a>(<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">Arc</a>::<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html#method.new">new</a>(<span class="kw">move </span>|Writer:<a href="https://doc.rust-lang.org/nightly/alloc/sync/struct.Arc.html">Arc</a>&lt;<span class="kw">dyn </span><a href="FileSystemWriter.rs.html#20-67">FileSystemWriter</a>&gt;| {
+<a href=#24 id=24 data-nosnippet>24</a>		<span class="kw">let </span>PathClone = <a href="#22">Path</a>.<a href="https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#tymethod.clone">clone</a>();
 <a href=#25 id=25 data-nosnippet>25</a>
-<a href=#26 id=26 data-nosnippet>26</a>		Box::pin(<span class="kw">async move </span>{ Writer.CreateFile(<span class="kw-2">&amp;</span>PathClone).<span class="kw">await </span>})
+<a href=#26 id=26 data-nosnippet>26</a>		<a href="https://doc.rust-lang.org/nightly/alloc/boxed/struct.Box.html">Box</a>::<a href="https://doc.rust-lang.org/nightly/alloc/boxed/struct.Box.html#method.pin">pin</a>(<span class="kw">async move </span>{ <a href="#23">Writer</a>.<a href="FileSystemWriter.rs.html#66">CreateFile</a>(<span class="kw-2">&amp;</span><a href="#24">PathClone</a>).<span class="kw">await </span>})
 <a href=#27 id=27 data-nosnippet>27</a>	}))
 <a href=#28 id=28 data-nosnippet>28</a>}
 </code></pre></div></section></main></body></html>
