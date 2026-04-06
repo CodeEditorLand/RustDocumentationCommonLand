@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["IMarkdownStringDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["IMarkdownStringDTO"] };

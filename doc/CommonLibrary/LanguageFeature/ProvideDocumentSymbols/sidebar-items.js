@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideDocumentSymbols"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideDocumentSymbols"] };

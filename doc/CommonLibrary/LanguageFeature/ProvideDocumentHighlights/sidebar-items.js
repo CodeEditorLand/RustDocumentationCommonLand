@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideDocumentHighlights"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideDocumentHighlights"] };

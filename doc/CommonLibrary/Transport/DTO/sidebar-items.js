@@ -1,1 +1,8 @@
-window.SIDEBAR_ITEMS = {"mod":["Correlation","TransportError","UnifiedRequest","UnifiedResponse"]};
+window.SIDEBAR_ITEMS = {
+	"mod": [
+		"Correlation",
+		"TransportError",
+		"UnifiedRequest",
+		"UnifiedResponse",
+	],
+};

@@ -1,9 +1,91 @@
-(function() {
-    const implementors = Object.fromEntries([["CommonLibrary",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/Configuration/DTO/ConfigurationScope/enum.ConfigurationScope.html\" title=\"enum CommonLibrary::Configuration::DTO::ConfigurationScope::ConfigurationScope\">ConfigurationScope</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/Configuration/DTO/ConfigurationTarget/enum.ConfigurationTarget.html\" title=\"enum CommonLibrary::Configuration::DTO::ConfigurationTarget::ConfigurationTarget\">ConfigurationTarget</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/FileSystem/DTO/FileTypeDTO/enum.FileTypeDTO.html\" title=\"enum CommonLibrary::FileSystem::DTO::FileTypeDTO::FileTypeDTO\">FileTypeDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/IPC/DTO/ProxyTarget/enum.ProxyTarget.html\" title=\"enum CommonLibrary::IPC::DTO::ProxyTarget::ProxyTarget\">ProxyTarget</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/LanguageFeature/DTO/CompletionContextDTO/enum.CompletionTriggerKindDTO.html\" title=\"enum CommonLibrary::LanguageFeature::DTO::CompletionContextDTO::CompletionTriggerKindDTO\">CompletionTriggerKindDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/LanguageFeature/DTO/ProviderType/enum.ProviderType.html\" title=\"enum CommonLibrary::LanguageFeature::DTO::ProviderType::ProviderType\">ProviderType</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/Transport/Common/enum.TransportType.html\" title=\"enum CommonLibrary::Transport::Common::TransportType\">TransportType</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/Transport/Registry/enum.PerformanceLevel.html\" title=\"enum CommonLibrary::Transport::Registry::PerformanceLevel\">PerformanceLevel</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/Transport/Registry/enum.Platform.html\" title=\"enum CommonLibrary::Transport::Registry::Platform\">Platform</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/Transport/Registry/enum.ReliabilityLevel.html\" title=\"enum CommonLibrary::Transport::Registry::ReliabilityLevel\">ReliabilityLevel</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/Transport/Retry/enum.RetryStrategy.html\" title=\"enum CommonLibrary::Transport::Retry::RetryStrategy\">RetryStrategy</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/Transport/TransportStrategy/enum.CircuitBreakerState.html\" title=\"enum CommonLibrary::Transport::TransportStrategy::CircuitBreakerState\">CircuitBreakerState</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/Transport/TransportStrategy/enum.TransportErrorCode.html\" title=\"enum CommonLibrary::Transport::TransportStrategy::TransportErrorCode\">TransportErrorCode</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"enum\" href=\"CommonLibrary/UserInterface/DTO/MessageSeverity/enum.MessageSeverity.html\" title=\"enum CommonLibrary::UserInterface::DTO::MessageSeverity::MessageSeverity\">MessageSeverity</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/TransportError/struct.TransportError.html\" title=\"struct CommonLibrary::Transport::TransportError::TransportError\">TransportError</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/TransportStrategy/struct.TransportCapabilities.html\" title=\"struct CommonLibrary::Transport::TransportStrategy::TransportCapabilities\">TransportCapabilities</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/UnifiedRequest/struct.UnifiedRequest.html\" title=\"struct CommonLibrary::Transport::UnifiedRequest::UnifiedRequest\">UnifiedRequest</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/UnifiedResponse/struct.ResponseError.html\" title=\"struct CommonLibrary::Transport::UnifiedResponse::ResponseError\">ResponseError</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html\" title=\"trait core::cmp::PartialEq\">PartialEq</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/UnifiedResponse/struct.UnifiedResponse.html\" title=\"struct CommonLibrary::Transport::UnifiedResponse::UnifiedResponse\">UnifiedResponse</a>",0]]]]);
-    if (window.register_implementors) {
-        window.register_implementors(implementors);
-    } else {
-        window.pending_implementors = implementors;
-    }
-})()
+(function () {
+	const implementors = Object.fromEntries([
+		[
+			"CommonLibrary",
+			[
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/Configuration/DTO/ConfigurationScope/enum.ConfigurationScope.html" title="enum CommonLibrary::Configuration::DTO::ConfigurationScope::ConfigurationScope">ConfigurationScope</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/Configuration/DTO/ConfigurationTarget/enum.ConfigurationTarget.html" title="enum CommonLibrary::Configuration::DTO::ConfigurationTarget::ConfigurationTarget">ConfigurationTarget</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/FileSystem/DTO/FileTypeDTO/enum.FileTypeDTO.html" title="enum CommonLibrary::FileSystem::DTO::FileTypeDTO::FileTypeDTO">FileTypeDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/IPC/DTO/ProxyTarget/enum.ProxyTarget.html" title="enum CommonLibrary::IPC::DTO::ProxyTarget::ProxyTarget">ProxyTarget</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/LanguageFeature/DTO/CompletionContextDTO/enum.CompletionTriggerKindDTO.html" title="enum CommonLibrary::LanguageFeature::DTO::CompletionContextDTO::CompletionTriggerKindDTO">CompletionTriggerKindDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/LanguageFeature/DTO/ProviderType/enum.ProviderType.html" title="enum CommonLibrary::LanguageFeature::DTO::ProviderType::ProviderType">ProviderType</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/Transport/Common/enum.TransportType.html" title="enum CommonLibrary::Transport::Common::TransportType">TransportType</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/Transport/Registry/enum.PerformanceLevel.html" title="enum CommonLibrary::Transport::Registry::PerformanceLevel">PerformanceLevel</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/Transport/Registry/enum.Platform.html" title="enum CommonLibrary::Transport::Registry::Platform">Platform</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/Transport/Registry/enum.ReliabilityLevel.html" title="enum CommonLibrary::Transport::Registry::ReliabilityLevel">ReliabilityLevel</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/Transport/Retry/enum.RetryStrategy.html" title="enum CommonLibrary::Transport::Retry::RetryStrategy">RetryStrategy</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/Transport/TransportStrategy/enum.CircuitBreakerState.html" title="enum CommonLibrary::Transport::TransportStrategy::CircuitBreakerState">CircuitBreakerState</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/Transport/TransportStrategy/enum.TransportErrorCode.html" title="enum CommonLibrary::Transport::TransportStrategy::TransportErrorCode">TransportErrorCode</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="enum" href="CommonLibrary/UserInterface/DTO/MessageSeverity/enum.MessageSeverity.html" title="enum CommonLibrary::UserInterface::DTO::MessageSeverity::MessageSeverity">MessageSeverity</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="struct" href="CommonLibrary/Transport/TransportError/struct.TransportError.html" title="struct CommonLibrary::Transport::TransportError::TransportError">TransportError</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="struct" href="CommonLibrary/Transport/TransportStrategy/struct.TransportCapabilities.html" title="struct CommonLibrary::Transport::TransportStrategy::TransportCapabilities">TransportCapabilities</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="struct" href="CommonLibrary/Transport/UnifiedRequest/struct.UnifiedRequest.html" title="struct CommonLibrary::Transport::UnifiedRequest::UnifiedRequest">UnifiedRequest</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="struct" href="CommonLibrary/Transport/UnifiedResponse/struct.ResponseError.html" title="struct CommonLibrary::Transport::UnifiedResponse::ResponseError">ResponseError</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="struct" href="CommonLibrary/Transport/UnifiedResponse/struct.UnifiedResponse.html" title="struct CommonLibrary::Transport::UnifiedResponse::UnifiedResponse">UnifiedResponse</a>',
+					0,
+				],
+			],
+		],
+	]);
+	if (window.register_implementors) {
+		window.register_implementors(implementors);
+	} else {
+		window.pending_implementors = implementors;
+	}
+})();
 //{"start":59,"fragment_lengths":[6650]}

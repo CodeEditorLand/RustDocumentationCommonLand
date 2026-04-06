@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["HasEnvironment"]};
+window.SIDEBAR_ITEMS = { "trait": ["HasEnvironment"] };

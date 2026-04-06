@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideCodeLenses"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideCodeLenses"] };

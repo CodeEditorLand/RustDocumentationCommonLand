@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["KeybindingProvider"]};
+window.SIDEBAR_ITEMS = { "mod": ["KeybindingProvider"] };

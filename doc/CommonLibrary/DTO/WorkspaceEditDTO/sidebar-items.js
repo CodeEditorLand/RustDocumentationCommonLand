@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["WorkspaceEditDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["WorkspaceEditDTO"] };

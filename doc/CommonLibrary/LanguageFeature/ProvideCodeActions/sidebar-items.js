@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideCodeActions"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideCodeActions"] };

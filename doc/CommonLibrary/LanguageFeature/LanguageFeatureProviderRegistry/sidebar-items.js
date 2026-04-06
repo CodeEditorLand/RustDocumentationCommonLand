@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["LanguageFeatureProviderRegistry"]};
+window.SIDEBAR_ITEMS = { "trait": ["LanguageFeatureProviderRegistry"] };

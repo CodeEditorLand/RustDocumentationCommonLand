@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["GetSecret"]};
+window.SIDEBAR_ITEMS = { "fn": ["GetSecret"] };

@@ -1,1 +1,8 @@
-window.SIDEBAR_ITEMS = {"mod":["ClearDiagnostics","DiagnosticManager","GetAllDiagnostics","SetDiagnostics"]};
+window.SIDEBAR_ITEMS = {
+	"mod": [
+		"ClearDiagnostics",
+		"DiagnosticManager",
+		"GetAllDiagnostics",
+		"SetDiagnostics",
+	],
+};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["UnregisterProvider"]};
+window.SIDEBAR_ITEMS = { "fn": ["UnregisterProvider"] };

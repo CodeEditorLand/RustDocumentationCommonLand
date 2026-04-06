@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["WebviewContentOptionsDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["WebviewContentOptionsDTO"] };

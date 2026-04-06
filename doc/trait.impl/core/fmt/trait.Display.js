@@ -1,9 +1,35 @@
-(function() {
-    const implementors = Object.fromEntries([["CommonLibrary",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"CommonLibrary/Error/CommonError/enum.CommonError.html\" title=\"enum CommonLibrary::Error::CommonError::CommonError\">CommonError</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"CommonLibrary/LanguageFeature/DTO/ProviderType/enum.ProviderType.html\" title=\"enum CommonLibrary::LanguageFeature::DTO::ProviderType::ProviderType\">ProviderType</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"CommonLibrary/Transport/Common/enum.TransportType.html\" title=\"enum CommonLibrary::Transport::Common::TransportType\">TransportType</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/TransportError/struct.TransportError.html\" title=\"struct CommonLibrary::Transport::TransportError::TransportError\">TransportError</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/UnifiedResponse/struct.ResponseError.html\" title=\"struct CommonLibrary::Transport::UnifiedResponse::ResponseError\">ResponseError</a>",0]]]]);
-    if (window.register_implementors) {
-        window.register_implementors(implementors);
-    } else {
-        window.pending_implementors = implementors;
-    }
-})()
+(function () {
+	const implementors = Object.fromEntries([
+		[
+			"CommonLibrary",
+			[
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html" title="trait core::fmt::Display">Display</a> for <a class="enum" href="CommonLibrary/Error/CommonError/enum.CommonError.html" title="enum CommonLibrary::Error::CommonError::CommonError">CommonError</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html" title="trait core::fmt::Display">Display</a> for <a class="enum" href="CommonLibrary/LanguageFeature/DTO/ProviderType/enum.ProviderType.html" title="enum CommonLibrary::LanguageFeature::DTO::ProviderType::ProviderType">ProviderType</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html" title="trait core::fmt::Display">Display</a> for <a class="enum" href="CommonLibrary/Transport/Common/enum.TransportType.html" title="enum CommonLibrary::Transport::Common::TransportType">TransportType</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html" title="trait core::fmt::Display">Display</a> for <a class="struct" href="CommonLibrary/Transport/TransportError/struct.TransportError.html" title="struct CommonLibrary::Transport::TransportError::TransportError">TransportError</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html" title="trait core::fmt::Display">Display</a> for <a class="struct" href="CommonLibrary/Transport/UnifiedResponse/struct.ResponseError.html" title="struct CommonLibrary::Transport::UnifiedResponse::ResponseError">ResponseError</a>',
+					0,
+				],
+			],
+		],
+	]);
+	if (window.register_implementors) {
+		window.register_implementors(implementors);
+	} else {
+		window.pending_implementors = implementors;
+	}
+})();
 //{"start":59,"fragment_lengths":[1669]}

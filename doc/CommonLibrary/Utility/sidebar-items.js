@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Serialization"]};
+window.SIDEBAR_ITEMS = { "mod": ["Serialization"] };

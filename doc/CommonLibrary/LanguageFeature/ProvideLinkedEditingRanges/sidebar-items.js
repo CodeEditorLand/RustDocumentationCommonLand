@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideLinkedEditingRanges"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideLinkedEditingRanges"] };

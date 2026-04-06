@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["CreateTerminal","TerminalProvider"]};
+window.SIDEBAR_ITEMS = { "mod": ["CreateTerminal", "TerminalProvider"] };

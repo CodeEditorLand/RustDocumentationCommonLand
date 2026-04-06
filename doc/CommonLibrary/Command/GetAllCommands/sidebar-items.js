@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["GetAllCommands"]};
+window.SIDEBAR_ITEMS = { "fn": ["GetAllCommands"] };

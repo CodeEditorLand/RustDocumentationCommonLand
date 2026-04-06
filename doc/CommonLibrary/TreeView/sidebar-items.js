@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["DTO","TreeViewProvider"]};
+window.SIDEBAR_ITEMS = { "mod": ["DTO", "TreeViewProvider"] };

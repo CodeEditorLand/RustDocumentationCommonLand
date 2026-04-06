@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ConfigurationOverridesDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["ConfigurationOverridesDTO"] };

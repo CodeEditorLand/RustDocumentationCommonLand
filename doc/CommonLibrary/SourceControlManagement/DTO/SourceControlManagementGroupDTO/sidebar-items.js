@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["SourceControlManagementGroupDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["SourceControlManagementGroupDTO"] };

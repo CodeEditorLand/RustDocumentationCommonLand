@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["RevealOutputChannel"]};
+window.SIDEBAR_ITEMS = { "fn": ["RevealOutputChannel"] };

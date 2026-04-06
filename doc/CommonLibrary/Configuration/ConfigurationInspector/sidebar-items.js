@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["ConfigurationInspector"]};
+window.SIDEBAR_ITEMS = { "trait": ["ConfigurationInspector"] };

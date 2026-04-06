@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["Requires"]};
+window.SIDEBAR_ITEMS = { "trait": ["Requires"] };

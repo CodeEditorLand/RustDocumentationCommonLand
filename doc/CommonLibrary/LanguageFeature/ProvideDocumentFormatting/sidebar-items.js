@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideDocumentFormatting"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideDocumentFormatting"] };

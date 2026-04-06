@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["DiagnosticManager"]};
+window.SIDEBAR_ITEMS = { "trait": ["DiagnosticManager"] };

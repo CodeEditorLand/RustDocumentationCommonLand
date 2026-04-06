@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["TerminalProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["TerminalProvider"] };

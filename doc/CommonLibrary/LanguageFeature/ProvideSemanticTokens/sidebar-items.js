@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideSemanticTokens"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideSemanticTokens"] };

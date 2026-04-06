@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["UnifiedRequest"]};
+window.SIDEBAR_ITEMS = { "struct": ["UnifiedRequest"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["InspectResultDataDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["InspectResultDataDTO"] };

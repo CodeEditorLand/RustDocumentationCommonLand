@@ -1,1 +1,4 @@
-window.SIDEBAR_ITEMS = {"enum":["CompletionTriggerKindDTO"],"struct":["CompletionContextDTO"]};
+window.SIDEBAR_ITEMS = {
+	"enum": ["CompletionTriggerKindDTO"],
+	"struct": ["CompletionContextDTO"],
+};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideInlayHints"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideInlayHints"] };

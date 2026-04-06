@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["TransportError"]};
+window.SIDEBAR_ITEMS = { "struct": ["TransportError"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["AppendToOutputChannel"]};
+window.SIDEBAR_ITEMS = { "fn": ["AppendToOutputChannel"] };

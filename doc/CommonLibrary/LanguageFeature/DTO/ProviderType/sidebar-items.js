@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":["ProviderType"]};
+window.SIDEBAR_ITEMS = { "enum": ["ProviderType"] };

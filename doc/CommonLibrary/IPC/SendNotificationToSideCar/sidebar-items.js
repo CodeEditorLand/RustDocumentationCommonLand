@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["SendNotificationToSideCar"]};
+window.SIDEBAR_ITEMS = { "fn": ["SendNotificationToSideCar"] };

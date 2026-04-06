@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["SecretProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["SecretProvider"] };

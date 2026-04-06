@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["WorkspaceProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["WorkspaceProvider"] };

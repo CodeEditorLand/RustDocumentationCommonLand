@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["SearchProvider"]};
+window.SIDEBAR_ITEMS = { "mod": ["SearchProvider"] };

@@ -1,1 +1,14 @@
-window.SIDEBAR_ITEMS = {"enum":["TransportType"],"struct":["DefaultTransportTypeDetector","SystemTimestampGenerator","UuidCorrelationIdGenerator"],"trait":["CorrelationIdGenerator","TimestampGenerator","TransportTypeDetector"],"type":["CorrelationId","Timestamp"]};
+window.SIDEBAR_ITEMS = {
+	"enum": ["TransportType"],
+	"struct": [
+		"DefaultTransportTypeDetector",
+		"SystemTimestampGenerator",
+		"UuidCorrelationIdGenerator",
+	],
+	"trait": [
+		"CorrelationIdGenerator",
+		"TimestampGenerator",
+		"TransportTypeDetector",
+	],
+	"type": ["CorrelationId", "Timestamp"],
+};

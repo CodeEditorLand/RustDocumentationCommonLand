@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideTypeHierarchy"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideTypeHierarchy"] };

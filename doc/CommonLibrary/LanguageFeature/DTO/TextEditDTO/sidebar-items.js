@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["TextEditDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["TextEditDTO"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["GetWorkspaceConfigurationPath"]};
+window.SIDEBAR_ITEMS = { "fn": ["GetWorkspaceConfigurationPath"] };

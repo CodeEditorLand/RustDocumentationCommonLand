@@ -1,1 +1,3 @@
-window.SIDEBAR_ITEMS = {"mod":["DeleteSecret","GetSecret","SecretProvider","StoreSecret"]};
+window.SIDEBAR_ITEMS = {
+	"mod": ["DeleteSecret", "GetSecret", "SecretProvider", "StoreSecret"],
+};

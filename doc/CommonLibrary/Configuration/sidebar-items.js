@@ -1,1 +1,10 @@
-window.SIDEBAR_ITEMS = {"mod":["ConfigurationInspector","ConfigurationProvider","DTO","GetConfiguration","InspectConfiguration","UpdateConfiguration"]};
+window.SIDEBAR_ITEMS = {
+	"mod": [
+		"ConfigurationInspector",
+		"ConfigurationProvider",
+		"DTO",
+		"GetConfiguration",
+		"InspectConfiguration",
+		"UpdateConfiguration",
+	],
+};

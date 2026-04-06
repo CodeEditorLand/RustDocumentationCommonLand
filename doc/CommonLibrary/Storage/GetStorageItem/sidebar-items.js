@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["GetStorageItem"]};
+window.SIDEBAR_ITEMS = { "fn": ["GetStorageItem"] };

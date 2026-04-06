@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["HoverResultDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["HoverResultDTO"] };

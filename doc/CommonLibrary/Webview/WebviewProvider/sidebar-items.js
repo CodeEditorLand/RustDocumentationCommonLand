@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["WebviewProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["WebviewProvider"] };

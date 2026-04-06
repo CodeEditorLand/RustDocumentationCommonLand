@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ConfigurationInitializationDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["ConfigurationInitializationDTO"] };

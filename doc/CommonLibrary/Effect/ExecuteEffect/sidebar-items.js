@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ExecuteEffect"]};
+window.SIDEBAR_ITEMS = { "fn": ["ExecuteEffect"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["ProxyTarget"]};
+window.SIDEBAR_ITEMS = { "mod": ["ProxyTarget"] };

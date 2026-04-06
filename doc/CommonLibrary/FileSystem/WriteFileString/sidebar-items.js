@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["WriteFileString"]};
+window.SIDEBAR_ITEMS = { "fn": ["WriteFileString"] };

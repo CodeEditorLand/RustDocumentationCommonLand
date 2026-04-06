@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["StatusBarProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["StatusBarProvider"] };

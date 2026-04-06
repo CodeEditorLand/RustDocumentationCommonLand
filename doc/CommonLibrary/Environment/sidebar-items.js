@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Environment","HasEnvironment","Requires"]};
+window.SIDEBAR_ITEMS = { "mod": ["Environment", "HasEnvironment", "Requires"] };

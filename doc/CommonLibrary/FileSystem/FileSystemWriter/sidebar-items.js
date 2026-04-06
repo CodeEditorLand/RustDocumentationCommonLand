@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["FileSystemWriter"]};
+window.SIDEBAR_ITEMS = { "trait": ["FileSystemWriter"] };

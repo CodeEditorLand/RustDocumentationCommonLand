@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["Copy"]};
+window.SIDEBAR_ITEMS = { "fn": ["Copy"] };

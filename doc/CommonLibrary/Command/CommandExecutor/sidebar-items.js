@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["CommandExecutor"]};
+window.SIDEBAR_ITEMS = { "trait": ["CommandExecutor"] };

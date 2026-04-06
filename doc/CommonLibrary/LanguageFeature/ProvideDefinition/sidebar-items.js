@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideDefinition"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideDefinition"] };

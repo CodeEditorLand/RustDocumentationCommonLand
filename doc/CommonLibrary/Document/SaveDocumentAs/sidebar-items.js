@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["SaveDocumentAs"]};
+window.SIDEBAR_ITEMS = { "fn": ["SaveDocumentAs"] };

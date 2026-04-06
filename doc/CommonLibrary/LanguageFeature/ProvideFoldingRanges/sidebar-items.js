@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideFoldingRanges"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideFoldingRanges"] };

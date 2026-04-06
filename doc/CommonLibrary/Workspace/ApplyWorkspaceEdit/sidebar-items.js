@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ApplyWorkspaceEdit"]};
+window.SIDEBAR_ITEMS = { "fn": ["ApplyWorkspaceEdit"] };

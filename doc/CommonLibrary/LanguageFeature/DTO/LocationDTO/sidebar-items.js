@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["LocationDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["LocationDTO"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ClearOutputChannel"]};
+window.SIDEBAR_ITEMS = { "fn": ["ClearOutputChannel"] };

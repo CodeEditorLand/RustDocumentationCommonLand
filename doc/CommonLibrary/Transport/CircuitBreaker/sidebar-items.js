@@ -1,1 +1,3 @@
-window.SIDEBAR_ITEMS = {"struct":["CircuitBreaker","CircuitBreakerConfiguration"]};
+window.SIDEBAR_ITEMS = {
+	"struct": ["CircuitBreaker", "CircuitBreakerConfiguration"],
+};

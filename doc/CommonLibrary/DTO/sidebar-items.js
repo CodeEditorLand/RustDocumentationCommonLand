@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["WorkspaceEditDTO"]};
+window.SIDEBAR_ITEMS = { "mod": ["WorkspaceEditDTO"] };

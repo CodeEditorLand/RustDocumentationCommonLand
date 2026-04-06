@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideReferences"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideReferences"] };

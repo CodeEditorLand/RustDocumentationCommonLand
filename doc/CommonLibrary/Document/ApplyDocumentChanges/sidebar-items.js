@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ApplyDocumentChanges"]};
+window.SIDEBAR_ITEMS = { "fn": ["ApplyDocumentChanges"] };

@@ -1,1 +1,15 @@
-window.SIDEBAR_ITEMS = {"mod":["ApplyWorkspaceEdit","FindFilesInWorkspace","GetWorkspaceConfigurationPath","GetWorkspaceFolderInfo","GetWorkspaceFoldersInfo","GetWorkspaceName","IsWorkspaceTrusted","OpenFile","RequestWorkspaceTrust","WorkspaceEditApplier","WorkspaceProvider"]};
+window.SIDEBAR_ITEMS = {
+	"mod": [
+		"ApplyWorkspaceEdit",
+		"FindFilesInWorkspace",
+		"GetWorkspaceConfigurationPath",
+		"GetWorkspaceFolderInfo",
+		"GetWorkspaceFoldersInfo",
+		"GetWorkspaceName",
+		"IsWorkspaceTrusted",
+		"OpenFile",
+		"RequestWorkspaceTrust",
+		"WorkspaceEditApplier",
+		"WorkspaceProvider",
+	],
+};

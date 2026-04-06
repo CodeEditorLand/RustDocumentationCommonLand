@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["CommonError"]};
+window.SIDEBAR_ITEMS = { "mod": ["CommonError"] };

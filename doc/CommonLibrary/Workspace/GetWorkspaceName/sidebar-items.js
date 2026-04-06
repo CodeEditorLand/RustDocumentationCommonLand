@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["GetWorkspaceName"]};
+window.SIDEBAR_ITEMS = { "fn": ["GetWorkspaceName"] };

@@ -1,1 +1,4 @@
-window.SIDEBAR_ITEMS = {"enum":["RetryStrategy"],"struct":["RetryConfiguration"]};
+window.SIDEBAR_ITEMS = {
+	"enum": ["RetryStrategy"],
+	"struct": ["RetryConfiguration"],
+};

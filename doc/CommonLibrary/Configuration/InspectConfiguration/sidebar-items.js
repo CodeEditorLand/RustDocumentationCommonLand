@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["InspectConfiguration"]};
+window.SIDEBAR_ITEMS = { "fn": ["InspectConfiguration"] };

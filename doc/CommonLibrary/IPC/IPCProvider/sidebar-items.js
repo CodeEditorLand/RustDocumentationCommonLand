@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["IPCProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["IPCProvider"] };

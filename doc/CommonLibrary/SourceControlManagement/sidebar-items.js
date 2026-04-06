@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["DTO","SourceControlManagementProvider"]};
+window.SIDEBAR_ITEMS = { "mod": ["DTO", "SourceControlManagementProvider"] };

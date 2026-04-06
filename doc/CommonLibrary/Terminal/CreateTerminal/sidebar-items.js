@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["CreateTerminal"]};
+window.SIDEBAR_ITEMS = { "fn": ["CreateTerminal"] };

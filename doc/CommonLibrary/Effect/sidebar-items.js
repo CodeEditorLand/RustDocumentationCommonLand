@@ -1,1 +1,3 @@
-window.SIDEBAR_ITEMS = {"mod":["ActionEffect","ApplicationRunTime","ExecuteEffect"]};
+window.SIDEBAR_ITEMS = {
+	"mod": ["ActionEffect", "ApplicationRunTime", "ExecuteEffect"],
+};

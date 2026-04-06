@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["CreateDirectory"]};
+window.SIDEBAR_ITEMS = { "fn": ["CreateDirectory"] };

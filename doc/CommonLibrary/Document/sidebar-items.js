@@ -1,1 +1,10 @@
-window.SIDEBAR_ITEMS = {"mod":["ApplyDocumentChanges","DocumentProvider","OpenDocument","SaveAllDocuments","SaveDocument","SaveDocumentAs"]};
+window.SIDEBAR_ITEMS = {
+	"mod": [
+		"ApplyDocumentChanges",
+		"DocumentProvider",
+		"OpenDocument",
+		"SaveAllDocuments",
+		"SaveDocument",
+		"SaveDocumentAs",
+	],
+};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["OutputChannelManager"]};
+window.SIDEBAR_ITEMS = { "trait": ["OutputChannelManager"] };

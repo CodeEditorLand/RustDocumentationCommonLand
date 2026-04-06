@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["CustomEditorProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["CustomEditorProvider"] };

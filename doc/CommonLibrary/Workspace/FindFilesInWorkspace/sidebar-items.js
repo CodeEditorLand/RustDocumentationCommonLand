@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["FindFilesInWorkspace"]};
+window.SIDEBAR_ITEMS = { "fn": ["FindFilesInWorkspace"] };

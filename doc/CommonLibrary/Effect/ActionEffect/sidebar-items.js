@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ActionEffect"]};
+window.SIDEBAR_ITEMS = { "struct": ["ActionEffect"] };

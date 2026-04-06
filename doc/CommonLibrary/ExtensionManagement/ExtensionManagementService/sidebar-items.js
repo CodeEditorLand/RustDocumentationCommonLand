@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["ExtensionManagementService"]};
+window.SIDEBAR_ITEMS = { "trait": ["ExtensionManagementService"] };

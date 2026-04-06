@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["CreateFile"]};
+window.SIDEBAR_ITEMS = { "fn": ["CreateFile"] };

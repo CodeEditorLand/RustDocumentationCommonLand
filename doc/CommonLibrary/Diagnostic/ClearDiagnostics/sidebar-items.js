@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ClearDiagnostics"]};
+window.SIDEBAR_ITEMS = { "fn": ["ClearDiagnostics"] };

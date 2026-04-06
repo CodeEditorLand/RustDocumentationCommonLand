@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["SynchronizationProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["SynchronizationProvider"] };

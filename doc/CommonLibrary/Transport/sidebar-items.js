@@ -1,1 +1,18 @@
-window.SIDEBAR_ITEMS = {"mod":["CircuitBreaker","Common","DTO","IPC","Metrics","Registry","Retry","TransportConfig","TransportError","TransportStrategy","UnifiedRequest","UnifiedResponse","WASM","gRPC"]};
+window.SIDEBAR_ITEMS = {
+	"mod": [
+		"CircuitBreaker",
+		"Common",
+		"DTO",
+		"IPC",
+		"Metrics",
+		"Registry",
+		"Retry",
+		"TransportConfig",
+		"TransportError",
+		"TransportStrategy",
+		"UnifiedRequest",
+		"UnifiedResponse",
+		"WASM",
+		"gRPC",
+	],
+};

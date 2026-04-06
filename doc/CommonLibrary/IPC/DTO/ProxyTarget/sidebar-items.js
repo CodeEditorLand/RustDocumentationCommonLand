@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":["ProxyTarget"]};
+window.SIDEBAR_ITEMS = { "enum": ["ProxyTarget"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["RegisterProvider"]};
+window.SIDEBAR_ITEMS = { "fn": ["RegisterProvider"] };

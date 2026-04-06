@@ -1,1 +1,11 @@
-window.SIDEBAR_ITEMS = {"mod":["SourceControlCreateDTO","SourceControlGroupUpdateDTO","SourceControlInputBoxDTO","SourceControlManagementGroupDTO","SourceControlManagementProviderDTO","SourceControlManagementResourceDTO","SourceControlUpdateDTO"]};
+window.SIDEBAR_ITEMS = {
+	"mod": [
+		"SourceControlCreateDTO",
+		"SourceControlGroupUpdateDTO",
+		"SourceControlInputBoxDTO",
+		"SourceControlManagementGroupDTO",
+		"SourceControlManagementProviderDTO",
+		"SourceControlManagementResourceDTO",
+		"SourceControlUpdateDTO",
+	],
+};

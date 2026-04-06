@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["SynchronizationProvider"]};
+window.SIDEBAR_ITEMS = { "mod": ["SynchronizationProvider"] };

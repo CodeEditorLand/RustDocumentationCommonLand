@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["StorageProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["StorageProvider"] };

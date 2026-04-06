@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideSignatureHelp"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideSignatureHelp"] };

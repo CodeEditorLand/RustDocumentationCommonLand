@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["RangeDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["RangeDTO"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["ApplicationRunTime"]};
+window.SIDEBAR_ITEMS = { "trait": ["ApplicationRunTime"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["FileSystemStatDTO","FileTypeDTO"]};
+window.SIDEBAR_ITEMS = { "mod": ["FileSystemStatDTO", "FileTypeDTO"] };

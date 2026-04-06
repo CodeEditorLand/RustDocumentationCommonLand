@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideRenameEdits"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideRenameEdits"] };

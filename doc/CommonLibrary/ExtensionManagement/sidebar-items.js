@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["ExtensionManagementService"]};
+window.SIDEBAR_ITEMS = { "mod": ["ExtensionManagementService"] };

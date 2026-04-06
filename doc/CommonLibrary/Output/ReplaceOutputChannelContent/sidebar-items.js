@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ReplaceOutputChannelContent"]};
+window.SIDEBAR_ITEMS = { "fn": ["ReplaceOutputChannelContent"] };

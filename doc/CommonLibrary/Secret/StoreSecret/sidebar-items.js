@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["StoreSecret"]};
+window.SIDEBAR_ITEMS = { "fn": ["StoreSecret"] };

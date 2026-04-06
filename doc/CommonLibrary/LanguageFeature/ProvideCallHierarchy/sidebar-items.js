@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideCallHierarchy"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideCallHierarchy"] };

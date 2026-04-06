@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["TestController"]};
+window.SIDEBAR_ITEMS = { "mod": ["TestController"] };

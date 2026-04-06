@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["MetricsCollector"]};
+window.SIDEBAR_ITEMS = { "trait": ["MetricsCollector"] };

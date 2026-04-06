@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["TreeViewProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["TreeViewProvider"] };

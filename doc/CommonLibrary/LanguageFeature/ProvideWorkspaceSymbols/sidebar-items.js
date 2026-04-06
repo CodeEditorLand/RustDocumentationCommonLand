@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideWorkspaceSymbols"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideWorkspaceSymbols"] };

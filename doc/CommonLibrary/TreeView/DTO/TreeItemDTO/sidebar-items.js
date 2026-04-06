@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["TreeItemDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["TreeItemDTO"] };

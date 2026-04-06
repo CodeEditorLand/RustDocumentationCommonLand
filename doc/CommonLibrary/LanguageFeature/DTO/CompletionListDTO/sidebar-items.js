@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["CompletionListDTO"]};
+window.SIDEBAR_ITEMS = { "struct": ["CompletionListDTO"] };

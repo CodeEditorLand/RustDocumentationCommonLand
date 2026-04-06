@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideSelectionRanges"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideSelectionRanges"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":["CommonError"]};
+window.SIDEBAR_ITEMS = { "enum": ["CommonError"] };

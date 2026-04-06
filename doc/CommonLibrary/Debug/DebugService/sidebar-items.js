@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["DebugService"]};
+window.SIDEBAR_ITEMS = { "trait": ["DebugService"] };

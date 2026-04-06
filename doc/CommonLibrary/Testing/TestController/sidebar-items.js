@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["TestController"]};
+window.SIDEBAR_ITEMS = { "trait": ["TestController"] };

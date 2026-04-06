@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideOnTypeFormatting"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideOnTypeFormatting"] };

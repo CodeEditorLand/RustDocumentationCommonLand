@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":["ConfigurationTarget"]};
+window.SIDEBAR_ITEMS = { "enum": ["ConfigurationTarget"] };

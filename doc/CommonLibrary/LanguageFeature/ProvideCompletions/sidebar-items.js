@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProvideCompletions"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProvideCompletions"] };

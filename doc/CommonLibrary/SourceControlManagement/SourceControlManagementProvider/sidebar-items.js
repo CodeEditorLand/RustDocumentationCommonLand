@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["SourceControlManagementProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["SourceControlManagementProvider"] };

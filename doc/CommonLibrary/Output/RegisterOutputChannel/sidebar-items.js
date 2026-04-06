@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["RegisterOutputChannel"]};
+window.SIDEBAR_ITEMS = { "fn": ["RegisterOutputChannel"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["CloseOutputChannelView"]};
+window.SIDEBAR_ITEMS = { "fn": ["CloseOutputChannelView"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["RequestWorkspaceTrust"]};
+window.SIDEBAR_ITEMS = { "fn": ["RequestWorkspaceTrust"] };

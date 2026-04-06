@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["StatFile"]};
+window.SIDEBAR_ITEMS = { "fn": ["StatFile"] };

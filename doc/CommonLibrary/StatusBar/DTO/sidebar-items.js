@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["StatusBarEntryDTO"]};
+window.SIDEBAR_ITEMS = { "mod": ["StatusBarEntryDTO"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ResponseError","UnifiedResponse"]};
+window.SIDEBAR_ITEMS = { "struct": ["ResponseError", "UnifiedResponse"] };

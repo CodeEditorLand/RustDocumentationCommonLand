@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["URLSerializationHelper"]};
+window.SIDEBAR_ITEMS = { "mod": ["URLSerializationHelper"] };

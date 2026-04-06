@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["CustomEditorProvider"]};
+window.SIDEBAR_ITEMS = { "mod": ["CustomEditorProvider"] };

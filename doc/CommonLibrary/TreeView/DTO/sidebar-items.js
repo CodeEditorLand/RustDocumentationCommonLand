@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["TreeItemDTO","TreeViewOptionsDTO"]};
+window.SIDEBAR_ITEMS = { "mod": ["TreeItemDTO", "TreeViewOptionsDTO"] };

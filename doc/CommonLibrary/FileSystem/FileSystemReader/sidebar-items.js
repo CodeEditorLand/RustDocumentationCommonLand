@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["FileSystemReader"]};
+window.SIDEBAR_ITEMS = { "trait": ["FileSystemReader"] };

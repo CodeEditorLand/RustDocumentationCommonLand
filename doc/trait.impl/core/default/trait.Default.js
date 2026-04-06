@@ -1,9 +1,99 @@
-(function() {
-    const implementors = Object.fromEntries([["CommonLibrary",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Configuration/DTO/ConfigurationOverridesDTO/struct.ConfigurationOverridesDTO.html\" title=\"struct CommonLibrary::Configuration::DTO::ConfigurationOverridesDTO::ConfigurationOverridesDTO\">ConfigurationOverridesDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Configuration/DTO/InspectResultDataDTO/struct.InspectResultDataDTO.html\" title=\"struct CommonLibrary::Configuration::DTO::InspectResultDataDTO::InspectResultDataDTO\">InspectResultDataDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/DTO/WorkspaceEditDTO/struct.WorkspaceEditDTO.html\" title=\"struct CommonLibrary::DTO::WorkspaceEditDTO::WorkspaceEditDTO\">WorkspaceEditDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/CircuitBreaker/struct.CircuitBreakerConfiguration.html\" title=\"struct CommonLibrary::Transport::CircuitBreaker::CircuitBreakerConfiguration\">CircuitBreakerConfiguration</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/Registry/struct.BrowserCapabilities.html\" title=\"struct CommonLibrary::Transport::Registry::BrowserCapabilities\">BrowserCapabilities</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/Registry/struct.TransportConstraints.html\" title=\"struct CommonLibrary::Transport::Registry::TransportConstraints\">TransportConstraints</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/Registry/struct.TransportRegistry.html\" title=\"struct CommonLibrary::Transport::Registry::TransportRegistry\">TransportRegistry</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/Registry/struct.TransportRequirements.html\" title=\"struct CommonLibrary::Transport::Registry::TransportRequirements\">TransportRequirements</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/Registry/struct.TransportSelector.html\" title=\"struct CommonLibrary::Transport::Registry::TransportSelector\">TransportSelector</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/Retry/struct.RetryConfiguration.html\" title=\"struct CommonLibrary::Transport::Retry::RetryConfiguration\">RetryConfiguration</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/TransportConfig/struct.TransportConfig.html\" title=\"struct CommonLibrary::Transport::TransportConfig::TransportConfig\">TransportConfig</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/TransportStrategy/struct.TransportCapabilities.html\" title=\"struct CommonLibrary::Transport::TransportStrategy::TransportCapabilities\">TransportCapabilities</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/Transport/TransportStrategy/struct.TransportMetrics.html\" title=\"struct CommonLibrary::Transport::TransportStrategy::TransportMetrics\">TransportMetrics</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/UserInterface/DTO/DialogOptionsDTO/struct.DialogOptionsDTO.html\" title=\"struct CommonLibrary::UserInterface::DTO::DialogOptionsDTO::DialogOptionsDTO\">DialogOptionsDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/UserInterface/DTO/FileFilterDTO/struct.FileFilterDTO.html\" title=\"struct CommonLibrary::UserInterface::DTO::FileFilterDTO::FileFilterDTO\">FileFilterDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/UserInterface/DTO/InputBoxOptionsDTO/struct.InputBoxOptionsDTO.html\" title=\"struct CommonLibrary::UserInterface::DTO::InputBoxOptionsDTO::InputBoxOptionsDTO\">InputBoxOptionsDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/UserInterface/DTO/MessageOptionsDTO/struct.MessageOptionsDTO.html\" title=\"struct CommonLibrary::UserInterface::DTO::MessageOptionsDTO::MessageOptionsDTO\">MessageOptionsDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/UserInterface/DTO/OpenDialogOptionsDTO/struct.OpenDialogOptionsDTO.html\" title=\"struct CommonLibrary::UserInterface::DTO::OpenDialogOptionsDTO::OpenDialogOptionsDTO\">OpenDialogOptionsDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/UserInterface/DTO/QuickPickItemDTO/struct.QuickPickItemDTO.html\" title=\"struct CommonLibrary::UserInterface::DTO::QuickPickItemDTO::QuickPickItemDTO\">QuickPickItemDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/UserInterface/DTO/QuickPickOptionsDTO/struct.QuickPickOptionsDTO.html\" title=\"struct CommonLibrary::UserInterface::DTO::QuickPickOptionsDTO::QuickPickOptionsDTO\">QuickPickOptionsDTO</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/default/trait.Default.html\" title=\"trait core::default::Default\">Default</a> for <a class=\"struct\" href=\"CommonLibrary/UserInterface/DTO/SaveDialogOptionsDTO/struct.SaveDialogOptionsDTO.html\" title=\"struct CommonLibrary::UserInterface::DTO::SaveDialogOptionsDTO::SaveDialogOptionsDTO\">SaveDialogOptionsDTO</a>",0]]]]);
-    if (window.register_implementors) {
-        window.register_implementors(implementors);
-    } else {
-        window.pending_implementors = implementors;
-    }
-})()
+(function () {
+	const implementors = Object.fromEntries([
+		[
+			"CommonLibrary",
+			[
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Configuration/DTO/ConfigurationOverridesDTO/struct.ConfigurationOverridesDTO.html" title="struct CommonLibrary::Configuration::DTO::ConfigurationOverridesDTO::ConfigurationOverridesDTO">ConfigurationOverridesDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Configuration/DTO/InspectResultDataDTO/struct.InspectResultDataDTO.html" title="struct CommonLibrary::Configuration::DTO::InspectResultDataDTO::InspectResultDataDTO">InspectResultDataDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/DTO/WorkspaceEditDTO/struct.WorkspaceEditDTO.html" title="struct CommonLibrary::DTO::WorkspaceEditDTO::WorkspaceEditDTO">WorkspaceEditDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/CircuitBreaker/struct.CircuitBreakerConfiguration.html" title="struct CommonLibrary::Transport::CircuitBreaker::CircuitBreakerConfiguration">CircuitBreakerConfiguration</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/Registry/struct.BrowserCapabilities.html" title="struct CommonLibrary::Transport::Registry::BrowserCapabilities">BrowserCapabilities</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/Registry/struct.TransportConstraints.html" title="struct CommonLibrary::Transport::Registry::TransportConstraints">TransportConstraints</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/Registry/struct.TransportRegistry.html" title="struct CommonLibrary::Transport::Registry::TransportRegistry">TransportRegistry</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/Registry/struct.TransportRequirements.html" title="struct CommonLibrary::Transport::Registry::TransportRequirements">TransportRequirements</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/Registry/struct.TransportSelector.html" title="struct CommonLibrary::Transport::Registry::TransportSelector">TransportSelector</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/Retry/struct.RetryConfiguration.html" title="struct CommonLibrary::Transport::Retry::RetryConfiguration">RetryConfiguration</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/TransportConfig/struct.TransportConfig.html" title="struct CommonLibrary::Transport::TransportConfig::TransportConfig">TransportConfig</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/TransportStrategy/struct.TransportCapabilities.html" title="struct CommonLibrary::Transport::TransportStrategy::TransportCapabilities">TransportCapabilities</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/Transport/TransportStrategy/struct.TransportMetrics.html" title="struct CommonLibrary::Transport::TransportStrategy::TransportMetrics">TransportMetrics</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/UserInterface/DTO/DialogOptionsDTO/struct.DialogOptionsDTO.html" title="struct CommonLibrary::UserInterface::DTO::DialogOptionsDTO::DialogOptionsDTO">DialogOptionsDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/UserInterface/DTO/FileFilterDTO/struct.FileFilterDTO.html" title="struct CommonLibrary::UserInterface::DTO::FileFilterDTO::FileFilterDTO">FileFilterDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/UserInterface/DTO/InputBoxOptionsDTO/struct.InputBoxOptionsDTO.html" title="struct CommonLibrary::UserInterface::DTO::InputBoxOptionsDTO::InputBoxOptionsDTO">InputBoxOptionsDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/UserInterface/DTO/MessageOptionsDTO/struct.MessageOptionsDTO.html" title="struct CommonLibrary::UserInterface::DTO::MessageOptionsDTO::MessageOptionsDTO">MessageOptionsDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/UserInterface/DTO/OpenDialogOptionsDTO/struct.OpenDialogOptionsDTO.html" title="struct CommonLibrary::UserInterface::DTO::OpenDialogOptionsDTO::OpenDialogOptionsDTO">OpenDialogOptionsDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/UserInterface/DTO/QuickPickItemDTO/struct.QuickPickItemDTO.html" title="struct CommonLibrary::UserInterface::DTO::QuickPickItemDTO::QuickPickItemDTO">QuickPickItemDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/UserInterface/DTO/QuickPickOptionsDTO/struct.QuickPickOptionsDTO.html" title="struct CommonLibrary::UserInterface::DTO::QuickPickOptionsDTO::QuickPickOptionsDTO">QuickPickOptionsDTO</a>',
+					0,
+				],
+				[
+					'impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/default/trait.Default.html" title="trait core::default::Default">Default</a> for <a class="struct" href="CommonLibrary/UserInterface/DTO/SaveDialogOptionsDTO/struct.SaveDialogOptionsDTO.html" title="struct CommonLibrary::UserInterface::DTO::SaveDialogOptionsDTO::SaveDialogOptionsDTO">SaveDialogOptionsDTO</a>',
+					0,
+				],
+			],
+		],
+	]);
+	if (window.register_implementors) {
+		window.register_implementors(implementors);
+	} else {
+		window.pending_implementors = implementors;
+	}
+})();
 //{"start":59,"fragment_lengths":[7804]}

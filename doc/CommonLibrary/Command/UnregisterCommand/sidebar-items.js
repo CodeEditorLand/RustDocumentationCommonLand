@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["UnregisterCommand"]};
+window.SIDEBAR_ITEMS = { "fn": ["UnregisterCommand"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["KeybindingProvider"]};
+window.SIDEBAR_ITEMS = { "trait": ["KeybindingProvider"] };

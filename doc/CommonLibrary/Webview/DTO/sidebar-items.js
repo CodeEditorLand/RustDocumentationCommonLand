@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["WebviewContentOptionsDTO"]};
+window.SIDEBAR_ITEMS = { "mod": ["WebviewContentOptionsDTO"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ExecuteCommand"]};
+window.SIDEBAR_ITEMS = { "fn": ["ExecuteCommand"] };

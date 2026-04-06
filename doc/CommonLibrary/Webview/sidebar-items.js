@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["DTO","WebviewProvider"]};
+window.SIDEBAR_ITEMS = { "mod": ["DTO", "WebviewProvider"] };

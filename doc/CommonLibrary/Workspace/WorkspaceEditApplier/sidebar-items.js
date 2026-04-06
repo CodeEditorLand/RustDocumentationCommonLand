@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"trait":["WorkspaceEditApplier"]};
+window.SIDEBAR_ITEMS = { "trait": ["WorkspaceEditApplier"] };

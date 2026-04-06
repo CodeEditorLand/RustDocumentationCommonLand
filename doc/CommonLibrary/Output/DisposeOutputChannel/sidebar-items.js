@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["DisposeOutputChannel"]};
+window.SIDEBAR_ITEMS = { "fn": ["DisposeOutputChannel"] };

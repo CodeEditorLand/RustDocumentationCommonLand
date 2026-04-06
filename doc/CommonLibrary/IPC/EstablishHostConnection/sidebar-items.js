@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["EstablishHostConnection"]};
+window.SIDEBAR_ITEMS = { "fn": ["EstablishHostConnection"] };

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"enum":["FileTypeDTO"]};
+window.SIDEBAR_ITEMS = { "enum": ["FileTypeDTO"] };

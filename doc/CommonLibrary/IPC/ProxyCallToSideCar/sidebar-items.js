@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["ProxyCallToSideCar"]};
+window.SIDEBAR_ITEMS = { "fn": ["ProxyCallToSideCar"] };
