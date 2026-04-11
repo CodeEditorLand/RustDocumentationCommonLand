@@ -1,9 +1,0 @@
-window.SIDEBAR_ITEMS = {
-	"mod": [
-		"CommandExecutor",
-		"ExecuteCommand",
-		"GetAllCommands",
-		"RegisterCommand",
-		"UnregisterCommand",
-	],
-};

@@ -1,8 +1,0 @@
-window.SIDEBAR_ITEMS = {
-	"mod": [
-		"ClearDiagnostics",
-		"DiagnosticManager",
-		"GetAllDiagnostics",
-		"SetDiagnostics",
-	],
-};

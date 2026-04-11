@@ -1,5 +1,0 @@
-window.SIDEBAR_ITEMS = {
-	"struct": ["UuidCorrelationIdGenerator"],
-	"trait": ["CorrelationIdGenerator"],
-	"type": ["CorrelationId"],
-};

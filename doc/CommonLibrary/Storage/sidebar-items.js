@@ -1,3 +1,0 @@
-window.SIDEBAR_ITEMS = {
-	"mod": ["GetStorageItem", "SetStorageItem", "StorageProvider"],
-};
