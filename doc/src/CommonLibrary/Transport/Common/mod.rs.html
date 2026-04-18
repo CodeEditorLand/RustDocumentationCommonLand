@@ -191,9 +191,9 @@
 <a href=#191 id=191 data-nosnippet>191</a>
 <a href=#192 id=192 data-nosnippet>192</a>	<span class="attr">#[test]
 <a href=#193 id=193 data-nosnippet>193</a>	</span><span class="kw">fn </span>TestTransportTypeFromString() {
-<a href=#194 id=194 data-nosnippet>194</a>		<span class="macro">assert_eq!</span>(<span class="string">"grpc"</span>.parse().unwrap(), TransportType::Grpc);
-<a href=#195 id=195 data-nosnippet>195</a>		<span class="macro">assert_eq!</span>(<span class="string">"ipc"</span>.parse().unwrap(), TransportType::Ipc);
-<a href=#196 id=196 data-nosnippet>196</a>		<span class="macro">assert_eq!</span>(<span class="string">"wasm"</span>.parse().unwrap(), TransportType::Wasm);
+<a href=#194 id=194 data-nosnippet>194</a>		<span class="macro">assert_eq!</span>(<span class="string">"grpc"</span>.parse::&lt;TransportType&gt;().unwrap(), TransportType::Grpc);
+<a href=#195 id=195 data-nosnippet>195</a>		<span class="macro">assert_eq!</span>(<span class="string">"ipc"</span>.parse::&lt;TransportType&gt;().unwrap(), TransportType::Ipc);
+<a href=#196 id=196 data-nosnippet>196</a>		<span class="macro">assert_eq!</span>(<span class="string">"wasm"</span>.parse::&lt;TransportType&gt;().unwrap(), TransportType::Wasm);
 <a href=#197 id=197 data-nosnippet>197</a>		<span class="macro">assert!</span>(<span class="string">"invalid"</span>.parse::&lt;TransportType&gt;().is_err());
 <a href=#198 id=198 data-nosnippet>198</a>	}
 <a href=#199 id=199 data-nosnippet>199</a>
